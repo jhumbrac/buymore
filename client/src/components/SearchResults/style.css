@@ -1,0 +1,44 @@
+.aboveFold {
+    background: #f4f6f9;
+    height:80vh;
+    padding:12px 12px;
+}
+.aboveFold > * {
+    background:#fff;
+    float:left;
+    margin:12px;
+    position:relative;
+    width:calc(50% - 24px);
+}
+.full {
+    height:calc(100% - 24px);
+    overflow:hidden;
+}
+.full img {
+    position:absolute;
+    top:50%;
+    transform:translateY(-50%);
+    width:100%;
+}
+.half {
+    height:calc(50% - 24px);
+}
+.trending {
+    margin-right:16px;
+    width:135px;
+}
+.trending img {
+    width:100%;
+}
+.trending h3 {
+    color:blue;
+    font-size:13px;
+}
+.trending p {
+    font-size:11px;
+}
+.trending h4 span {
+    display:block;
+    font-weight:normal;
+    text-decoration: line-through;
+}

@@ -1,0 +1,43 @@
+form {
+    float:left;
+    margin-left:25px;
+    padding:0 15px;
+    position:relative;
+    width:50%;
+}
+#searchBar {
+    border:none;
+    border-radius:4px;
+    font-size:15px;
+    height: 35px;
+    padding:10px;
+    width:100%;
+}
+#searchBar:focus {
+    outline:none;
+}
+#searchButton {
+    background:#fff;
+    border:none;
+    border-radius: 0 4px 4px 0;
+    line-height:22px;
+    margin:0;
+    padding:0 6px;
+    position:absolute;
+    right:15px;
+    bottom:0;
+    top:0;
+    z-index: 1;
+}
+#searchButton img {
+    max-height:22px;
+}
+.visually-hidden { 
+    position: absolute !important;
+    height: 1px; 
+    width: 1px;
+    overflow: hidden;
+    clip: rect(1px 1px 1px 1px); /* IE6, IE7 */
+    clip: rect(1px, 1px, 1px, 1px);
+    white-space: nowrap; /* added line */
+}

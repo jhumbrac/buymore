@@ -1,0 +1,73 @@
+header {
+    background: #0046be;
+}
+header a {
+    color:#fff;
+    display:inline-block;
+    font-size:15px;
+    line-height:23px;
+    margin-left:30px;
+    text-decoration: none;
+}
+header button {
+    background:none;
+    border:none;
+    outline:none;
+    position: relative;
+    color: #fff;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 32px;
+    margin-right:40px;
+    text-decoration:none;
+}
+header svg {
+    vertical-align: middle;
+}
+.logo {
+    float:left;
+    margin:4px 0 0;
+}
+.logo img {height:72px;}
+.topNav {
+    padding:13px 40px 7px;
+}
+.navWrapper {
+    border-top: 1px solid #4976e6;
+    padding:10px 40px;
+    position:relative;
+}
+.rightContainer {
+    width: calc(100% - 127px);
+    float: left;
+}
+.mainNav {
+    float:left;
+}
+.clientPortal {
+    float:right;
+    margin-top:4px;
+}
+.clientPortal button {
+    font-size:15px;
+    line-height:23px;
+    margin:0 0 0 30px;
+}
+.dealsGifts {
+    margin-bottom:13px;
+    text-align:right;
+}
+.utility {
+    float:right;
+}
+.utility button:last-of-type {
+    margin-left: 25px;
+    border-left: 1px solid #4976e6;
+    padding-left: 25px;
+}
+.utility button {
+    margin: 0;
+}
+.dealsGifts a:hover {
+    text-decoration: underline;
+}
